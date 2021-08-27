@@ -13,6 +13,7 @@ chrome.storage.onChanged.addListener((changes, area) => {
     }
   }
 });
+
 //injection function
 function toolbar_inserter() {
   var div = document.createElement(div);

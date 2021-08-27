@@ -58,7 +58,7 @@ const modeSwitch = document.getElementById("modeSwitch");
 
 function theme() {
   chrome.storage.sync.get(["theme"], function (items) {
-    message("Settings retrieved", items);
+    console.log("Settings retrieved", items);
   });
 }
 
@@ -70,8 +70,8 @@ modeSwitch.addEventListener("change", function () {
       console.log("Settings saved");
     }
   );
-  console.log(document.body.classList);
   theme();
+  console.log(document.body.classList);
 });
 
 var checkbox = document.getElementById("modeSwitch");
