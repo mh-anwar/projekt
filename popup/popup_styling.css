@@ -5,6 +5,11 @@ body {
   max-height: 250px;
   background-color: aliceblue;
 }
+body.dark {
+  background: #000;
+  color: #fff;
+}
+
 .button {
   display: inline-block;
   margin-top: 5px;

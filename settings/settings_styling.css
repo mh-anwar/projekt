@@ -2,6 +2,11 @@ body {
   font-size: medium;
   font-family: "Times New Roman", Times, serif;
 }
+
+body.dark {
+  background: #000;
+}
+
 .header {
   background-color: rgb(255, 58, 58);
   width: 100%;

@@ -10,7 +10,6 @@ chrome.storage.onChanged.addListener((changes, area) => {
     var toolbar = document.getElementById("copy_toolbar");
     if (typeof toolbar != "undefined" && toolbar != null) {
       document.getElementById("copy_toolbar").style.height = toolbar_height;
-
     }
   }
 });
